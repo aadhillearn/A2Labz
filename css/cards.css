@@ -1,0 +1,344 @@
+.pro1 {
+    .me {
+
+        width: auto;
+        height: auto;
+        border: 0px solid #cccccc2d;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .uni {
+
+        width: 20%;
+        height: 10%;
+    }
+
+    .container {
+        position: relative;
+        font-family: sans-serif;
+    }
+
+    .container::before,
+    .container::after {
+        content: "";
+        background-color: #fab5704c;
+        position: absolute;
+    }
+
+    .container::before {
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        top: 30%;
+        right: 7%;
+    }
+
+    .container::after {
+        content: "";
+        position: absolute;
+        height: 3rem;
+        top: 8%;
+        right: 5%;
+        border: 1px solid;
+    }
+
+    .container .box {
+
+        width: 490px;
+        height: 500px;
+        padding: 1rem;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.074);
+        border: 1px solid rgba(255, 255, 255, 0.222);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        border-radius: .7rem;
+        transition: all ease .3s;
+    }
+
+    .container .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container .box .title {
+        color: #cccccc;
+        font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: .1em
+    }
+
+    .container .box div strong {
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+        color: #ccccccd2;
+        display: block;
+        margin-bottom: .5rem;
+    }
+
+    .container .box div p {
+        color: #cccccc;
+        margin: 0;
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+        font-size: .9em;
+        font-weight: 300;
+        letter-spacing: .1em;
+    }
+
+    .container .box div span {
+        font-size: .7rem;
+        font-weight: 300;
+        color: #cccccc;
+    }
+
+    .container .box div span:nth-child(3) {
+        font-weight: 500;
+        color: #cccccc;
+        margin-right: .2rem;
+    }
+
+    .container .box:hover {
+        box-shadow: 0px 0px 20px 1px #ffbb763f;
+        border: 1px solid rgba(255, 255, 255, 0.454);
+    }
+
+}
+
+.fon p {
+    text-align: justify;
+}
+
+/* ================================================================= */
+.pro1-pic {
+    .card {
+        width: 230px;
+        height: 280px;
+        border-radius: 2em;
+        padding: 10px;
+        background-color: #191919;
+        box-shadow: 5px 5px 30px rgb(4, 4, 4),
+            -5px -5px 30px rgb(57, 57, 57);
+    }
+
+    .profileimage {
+        background-color: transparent;
+        border: none;
+        margin-top: 20px;
+        border-radius: 5em;
+        width: 100px;
+        height: 100px;
+    }
+
+    .pfp {
+        border-radius: 35em;
+        fill: white;
+    }
+
+    .Name {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .socialbar {
+        background-color: #191919;
+        border-radius: 3em;
+        width: 90%;
+        padding: 14px;
+        margin-top: 15px;
+        color: white;
+        box-shadow: 3px 3px 15px rgb(0, 0, 0),
+            -3px -3px 15px rgb(58, 58, 58);
+    }
+
+    .card a {
+        transition: 0.4s;
+        color: white
+    }
+
+    #github:hover {
+        color: #c9510c;
+    }
+
+    #instagram:hover {
+        color: #d62976;
+    }
+
+    #facebook:hover {
+        color: #3b5998;
+    }
+
+    #twitter:hover {
+        color: #00acee;
+    }
+
+}
+
+
+/* ================================================ */
+
+
+
+/*======================================
+//--//-->   PORTFOLIO
+======================================*/
+.ser {
+    .work-box {
+        border-radius: 20px;
+        margin-bottom: 3rem;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #fff;
+    }
+
+    .work-box:hover img {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .work-img {
+        border-radius: 20px 20px 0 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    .work-img img {
+        transition: all 1s;
+    }
+
+    .work-content {
+        padding: 2rem 3% 1rem 4%;
+    }
+
+    .work-content .w-more {
+        color: #4e4e4e;
+        font-size: .8rem;
+    }
+
+    .work-content .w-more .w-ctegory {
+        color: #0078ff;
+    }
+
+    .work-content .w-like {
+        font-size: 2.5rem;
+        color: #0078ff;
+        float: right;
+    }
+
+    .work-content .w-like a {
+        color: #0078ff;
+    }
+
+    .work-content .w-like .num-like {
+        font-size: .7rem;
+    }
+
+    .w-title {
+        font-size: 1.2rem;
+    }
+
+    .subtitle-a {
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .title-a {
+        color: #ffffff;
+        text-align: left;
+        font-size: 4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+
+
+}
+
+/* ======================Tek=========================== */
+
+.tek {
+    display: flex;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_box {
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+        background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+        position: relative;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+        cursor: pointer;
+        transition: all .3s;
+        margin: 20px 20px 10px 20px;
+    }
+
+    .card_box:hover {
+        transform: scale(0.9);
+    }
+
+    .card_box span {
+        position: absolute;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .card_box span::before {
+        content: 'React';
+        position: absolute;
+        width: 150%;
+        height: 40px;
+        background-image: linear-gradient(45deg, #ff6547 0%, #ffb144 51%, #ff7053 100%);
+        transform: rotate(-45deg) translateY(-20px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+    } */
+
+    /* .card_box span::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        bottom: 0;
+        left: 0;
+        height: 10px;
+        z-index: -1;
+        box-shadow: 140px -140px #cc3f47;
+        background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    } */
+
+    .card_box img {
+        margin: 20px;
+        width: 80%;
+        aspect-ratio: 8/3;
+        object-fit: contain;
+        mix-blend-mode: normal;
+    }
+}
+
+.tek-head {
+    h2 {
+        text-align: center;
+        color: #ffffff;
+    }
+}
